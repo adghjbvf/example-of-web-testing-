@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage/example first webpage <Design>
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+ 
+</head>
+<body>
+  
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">ahIr braNde</h2>
+                <div class="logo-container">
+                  <a href="#" class="logo">
+                      <img src="Screenshot 54635bd7r.png" alt="Logo" width="50" height="40">
+                      
+                  </a>
+              </div>
+
+
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">ahIrHERE</a></li>
+                    <li><a href=" htmk.html">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href=" https://www.google.co.in/"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1> Fashion  <br><span> Rock in life</span> <br>Your Size</h1>
+            <p class="par">  CEO of company Krishnayaduvansy brand under shyambahaduryaduvansy   <br>   Brand collective divison Davayaduvansy 
+                <br> Life is not Perfect but Your Outfit Can be ,Normal is Boring, and My ahirstyle is ..  </p>
+
+                <button class="cn"><a href="#">JOIN US</a></button>
+
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btnn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</a></p>
+                    <p class="liw">Log in with</p>
+
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href=" https://www.instagram.com/?hl=en  "><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+
+                    </div>
+
+                </div>
+                    </div>
+                </div>
+        </div>
+      </div>
+    
+    <div class="product-container" id="productContainer">
+        
+      </div>
+    
+      <script>
+      
+        const products = [
+          { name: " rock poster 3,8", price: 19.99, image: " photo_2023-10-12_01-36-53.jpg " },
+          { name: "Product 2", price: 29.29, image: "testimonial1.jpg" },
+          { name: "Product 3", price: 339.49, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 4", price: 59.95, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 5", price: 392.99, image: "testimonial1.jpg" },
+          { name: "Product 6", price: 394.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 7", price: 9.99, image: "testimonial2.jpg" },
+          { name: "Product 8", price: 3.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 9", price: 3.99, image: "testimonial1.jpg" },
+          { name: "Product 10", price: 3.99, image: "testimonial2.jpg" },
+          { name: "Product 11", price: 3.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 12", price: 3.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 13", price: 3.99, image: "testimonial1.jpg" },
+          { name: "Product 14", price: 5.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 15", price: 3.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 16", price: 4.99, image: "testimonial1.jpg" },
+          { name: "Product 17", price: 3.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 18", price: 5.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 19", price: 1.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 20", price: .99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 21", price: 43.99, image: "testimonial2.jpg" },
+          { name: "Product 22", price: 34.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 23", price: 3.599, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 24", price: 4.99, image: "testimonial2.jpg" },
+          { name: "Product 25", price: 56.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 26", price: 35.99, image: "testimonial2.jpg" },
+          { name: "Product 27", price: 34.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 28", price: 4.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 29", price: 4.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 30", price: 36.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 31", price: 35.99, image: "testimonial2.jpg" },
+          { name: "Product 32", price: 45.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 33", price: 43.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 34", price: 67.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 35", price: 33.99, image: "testimonial2.jpg" },
+          { name: "Product 36", price: 67.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 37", price: 32.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 38", price: 67.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 39", price: 23.99, image: "testimonial2.jpg" },
+          { name: "Product 40", price: 399, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 41", price: 56.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 42", price: 56.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 43", price: 5.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 44", price: 66.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 45", price: 66.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 46", price: 5.99, image: "testimonial2.jpg" },
+          { name: "Product 47", price: 56.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 48", price: 76.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 49", price: 5.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 50", price: 56.99, image: "testimonial2.jpg" },
+          { name: "Product 51", price: 76.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 52", price: 599, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 53", price: 76.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 54", price: 86.99, image: "testimonial2.jpg" },
+          { name: "Product 55", price: 55.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 56", price: 64.99, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 57", price: 66.99, image: "testimonial2.jpg" },
+          { name: "Product 58", price: 599, image: "photo_2023-10-12_01-36-53.jpg" },
+          { name: "Product 59", price: 656.99, image: "testimonial2.jpg" },
+          { name: "Product 60", price: 64.99, image: "testimonial2.jpg" },
+
+
+];
+    
+    
+//         function generateProductCards() {
+//           const container = document.getElementById("productContainer");
+    
+//           products.forEach(product => {
+//             const card = document.createElement("div");
+//             card.className = "product-card";
+    
+//             const image = document.createElement("img");
+//             image.src = product.image;
+//             image.alt = product.name;
+//             image.className = "product-image";
+    
+//             const name = document.createElement("h3");                              
+//             name.textContent = product.name;
+        
+
+//             const price = document.createElement("p");
+//             price.textContent = `₹${product.price.toFixed(2)}`;
+
+//             card.appendChild(image);
+//             card.appendChild(name);
+//             card.appendChild(price);
+    
+//             container.appendChild(card);
+//             price.className = "price";
+
+
+//             price.className = "price";
+
+// // RGB color display
+// const colorDisplay = document.createElement("div");
+// colorDisplay.className = "color-display";
+
+// card.appendChild(image);
+// card.appendChild(name);
+// card.appendChild(price);
+// card.appendChild(colorDisplay);
+
+// container.appendChild(card);
+
+
+// price.addEventListener("click", () => changeBackgroundColor(card));
+// });
+// }
+
+// function changeBackgroundColor(card) {
+//       const rgbColor = getRandomRGBColor();
+//       card.style.backgroundColor = `rgb(${rgbColor.r}, ${rgbColor.g}, ${rgbColor.b})`;
+//     }
+
+    
+//     function getRandomRGBColor() {
+//       const r = Math.floor(Math.random() * 256);
+//       const g = Math.floor(Math.random() * 256);
+//       const b = Math.floor(Math.random() * 256);
+//       return { r, g, b };
+//     }
+
+
+//     generateProductCards();
+function generateProductCards() {
+        const container = document.getElementById("productContainer");
+
+        products.forEach(product => {
+            const card = document.createElement("div");
+            card.className = "product-card";
+
+            const image = document.createElement("img");
+            image.src = product.image;
+            image.alt = product.name;
+            image.className = "product-image";
+
+            const name = document.createElement("h3");
+            name.textContent = product.name;
+
+            const originalPrice = document.createElement("p");
+            originalPrice.textContent = `Original Price: ₹${product.price.toFixed(2)}`;
+            originalPrice.style.textDecoration = "line-through";
+
+            const discountAmount = product.price * 0.18;
+            const discountedPrice = product.price - discountAmount;
+            const discountedPriceElement = document.createElement("p");
+            discountedPriceElement.textContent = `Discounted Price: ₹${discountedPrice.toFixed(2)}`;
+
+            card.appendChild(image);
+            card.appendChild(name);
+            card.appendChild(originalPrice);
+            card.appendChild(discountedPriceElement);
+
+            container.appendChild(card);
+        });
+    }
+
+    generateProductCards();
+      </script>
+    <footer>
+        <p>my first webpage as a learning 2023 ahirstyle</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
+
